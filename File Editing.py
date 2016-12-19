@@ -8,7 +8,7 @@ from shutil import copyfile
 import sys
 import os.path
 
-print "Enter your choice. 1. Create a destination file. 2.Copy the whole file. 3.Only Few Lines. 4. Whole file with few corrections. 5.Insert few additional data"
+print "Enter your choice. 1. Create a destination file. 2. Copy the whole file. 3. Copy Only Few Lines. 4. Whole file with few corrections. 5.Insert few additional data"
 x = int(raw_input("Enter your Choice number:"))
 
 #For creation of new target file.
